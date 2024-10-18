@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--icono botones-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="./CSS/Notas_Rapidas_pricipal/Notas_rapidas_principal.css">
+    <title>Mi Nota Rapida</title>
+</head>
+
+<body>
+    <section id="contenedor_principal_1">
+        <header>
+            <button id="boton_crear_nota"><i class="bi bi-plus-lg"></i></button>
+            <button id="boton_modo_claro_oscuro" class="modo_claro"><i class="bi bi-toggle-off"></i></button>
+            <button id="boton_menu_header"><i class="bi bi-arrow-right-short"></i></button>
+        </header>
+
+
+        <div class="titulo_nota_pricipal">
+            <h1>Mi Notas Rapidas</h1>
+        </div>
+
+
+        <div class="contenedor_de_listas_externo">
+            <ul id="lista"></ul>
+        </div>
+    </section>
+
+
+
+
+    <section id="contenedor_principal_2">
+        <div id="cont_principal_2_externo">
+            <header>
+                <input id="tema_nota" type="text" placeholder="Tema..">
+                <button id="boton_agregar_nota"><i class="bi bi-check-lg icono_principal_2"></i></button>
+                <button id="boton_cerrar"><i class="bi bi-x-lg icono_principal_2"></i></button>
+            </header>
+
+            <textarea name="" id="nota" placeholder="Nueva Nota..."></textarea>
+        </div>
+    </section>
+
+
+
+    <section id="contenedor_principal_3_externo">
+        <div id="contenedor_pricnipal_3_interno">
+            <header>
+                <h1>Jonathan Gamon</h1>
+                <!-- <button id="boton_descarga_nota"><i class="bi bi-arrow-down-short icono_principal_2"></i></button> -->
+                <button id="boton_cerrar_descarga"><i class="bi bi-x-lg icono_principal_2"></i></button>
+            </header>
+            <img src="./752326.png" alt="">
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="./JS/funcion_modo_claro_oscuro/cambio_de_modo.js"></script>
+    <script src="./JS/abrir_ocultar_contenido_principal_2/abrir_ocultar_contenido_pricipal_2.js"></script>
+    <script src="./JS/creacion_nota/creacion_de_nota.js"></script>
+</body>
+
+</html>
